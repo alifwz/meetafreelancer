@@ -1,0 +1,1 @@
+<?php    $dd =  date('Y-m-d H:i:s');$date = new DateTime($dd, new DateTimeZone('UTC'));$date->setTimezone(new DateTimeZone('Asia/Riyadh'));$personalized = $date->format('Y-m-d H:i:s');echo $personalized; // outputs 2015-01-23 23:30:00 ?>
